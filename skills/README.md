@@ -18,6 +18,9 @@
 
 **详细文档**：[frontend-ui-test/SKILL.md](./frontend-ui-test/SKILL.md)
 
+**注意**：需要使用能添加图片的多模态模型。
+![alt text](img_v3_02vv_78e65a44-baa5-4a9b-9624-f275a4c5ebeg.jpg)
+![alt text](img_v3_02vv_a7eb49fb-934a-4b36-ab04-e8c0db32881g.jpg)
 ### 2. full-review-repair - 全维度代码审查与修复
 
 **功能说明**：本技能用于执行完整的项目代码审查、修复和测试流程，确保代码质量和功能完整性。
@@ -36,6 +39,10 @@
 **使用场景**：项目阶段性审查、新功能开发完成后、修复bug后、用户要求进行全面代码审查和测试时。
 
 **详细文档**：[full-review-repair/SKILL.md](./full-review-repair/SKILL.md)
+
+**注意**：需要添加测试专家智能体，可以自己写或者用我写的。
+
+我用 TRAE 做了一个有意思的Agent 「测试专家」。 点击 https://s.trae.com.cn/a/8ff930?region=cn 立即复刻，一起来玩吧！
 
 ## 目录结构
 
