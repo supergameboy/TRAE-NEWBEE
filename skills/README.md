@@ -44,6 +44,27 @@
 
 我用 TRAE 做了一个有意思的Agent 「测试专家」。 点击 https://s.trae.com.cn/a/8ff930?region=cn 立即复刻，一起来玩吧！
 
+### 3. auto-task-experience-summarizer - 自动任务经验总结器
+
+**功能说明**：本技能用于自动读取与总结任务执行经验，包括：
+- 任务执行过程中的关键步骤
+- 遇到的问题及解决方案
+- 优化建议
+- 任务流程记录
+- 任务类型分类
+- 经验类别标注
+
+**触发时机**：
+- 任何任务执行开始前
+- 任何任务执行完成后
+- 主Agent标记任务为完成时
+- 需要参考任务经验时
+- 需要记录任务经验以供后续参考时
+
+**经验文件**：自动创建经验文件并更新索引，存储在 `.trae/skills/auto-task-experience-summarizer/` 目录中。
+
+**详细文档**：[auto-task-experience-summarizer/SKILL.md](./auto-task-experience-summarizer/SKILL.md)
+
 ## 目录结构
 
 ```
@@ -51,6 +72,8 @@ skills/
 ├── frontend-ui-test/
 │   └── SKILL.md
 ├── full-review-repair/
+│   └── SKILL.md
+├── auto-task-experience-summarizer/
 │   └── SKILL.md
 └── README.md (本文件)
 ```
