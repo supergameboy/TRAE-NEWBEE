@@ -1,6 +1,6 @@
 ---
-name: "frontend-ui-test"
-description: "前端界面操作测试技能：启动前端服务器、访问页面、截图、点击按钮等操作测试。Invoke when user wants to test frontend UI functionality or perform browser interactions."
+name: frontend-ui-test
+description: 前端界面操作测试技能：启动前端服务器、访问页面、截图和页面快照、对比变化。每次前端代码修改后必须调用；每次需要验证功能的后端修改后必须调用；Invoke when user wants to test frontend UI functionality or perform browser interactions.
 ---
 
 # 前端界面操作测试技能
@@ -13,11 +13,11 @@ description: "前端界面操作测试技能：启动前端服务器、访问页
 - 使用浏览器访问页面
 - 使用 MCP integrated_browser 服务的browser_take_screenshot 截图
 - 使用 MCP integrated_browser 服务的browser_snapshot 获取页面快照
-- 读取截图内容
+- 读取截图文件
 - 点击页面元素（按钮等）
 - 再次使用 MCP integrated_browser 服务的browser_take_screenshot 截图
 - 再次使用 MCP integrated_browser 服务的browser_snapshot 获取页面快照
-- 读取截图内容
+- 读取截图文件
 - 对比操作前后的变化（包括截图和快照）
 - 循环执行多轮测试
 - 输出最终测试报告
@@ -89,6 +89,7 @@ description: "前端界面操作测试技能：启动前端服务器、访问页
 - 子Agent没有权限使用 MCP integrated_browser 服务，请主Agent使用 MCP integrated_browser 服务
 - 子Agent使用playwright MCP进行测试
 - 出现问题时，注意浏览器控制台消息，注意后台终端消息，注意网络请求的传输。
+- 截图文件保存到 `项目根目录/_screenshot/` 目录下，方便清理
 - 测试完成后清理截图文件。
 - 截图和快照都需要AI自己去获取，然后对比图片的细节变化，不能依赖人工对比。
 - 如果有疑问或需要项目中没有的特定信息，使用AskUserQuestion 工具询问用户。

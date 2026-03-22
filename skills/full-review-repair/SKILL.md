@@ -1,7 +1,6 @@
-
 ---
-name: "full-review-repair"
-description: "全维度代码审查与修复流程，包括后端、数据库、前端和UI。Invoke when user requests comprehensive code review and testing for the project."
+name: full-review-repair
+description: 全维度代码审查与修复流程，包括后端、数据库、前端和UI。Invoke when user requests comprehensive code review and testing for the project.Invoke when user asks for comprehensive project assessment, quality review, audit, check, inspection, review or similar evaluations.
 ---
 
 # Full Review &amp; Repair 全维度审查修复流程
