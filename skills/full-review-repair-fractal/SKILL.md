@@ -1,6 +1,6 @@
 ---
 name: full-review-repair-fractal
-description: 分形式全维度代码审查与修复流程，采用递归细化的方式从宏观到微观逐步深入审查项目。Invoke when user requests comprehensive code review and testing for the project.Invoke when user asks for comprehensive project assessment, quality review, audit, check, inspection, review or similar evaluations.
+description: 分形式全维度代码审查与修复流程，采用递归细化的方式从宏观到微观逐步深入审查项目。触发关键词：全面审查、代码审查、质量审查、审计、检查、检视、评审、项目评估、全面测试、分形审查；使用范围：项目阶段性审查、新功能开发完成后、修复bug后、用户要求进行全面代码审查和测试时、需要深度审查特定模块时、项目重构前的全面评估。
 ---
 
 # Full Review &amp; Repair Fractal - 分形式全维度审查修复流程
