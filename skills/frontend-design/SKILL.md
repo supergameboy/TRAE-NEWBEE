@@ -67,7 +67,7 @@ Interpret creatively and make unexpected choices that feel genuinely designed fo
 
 **IMPORTANT**: Match implementation complexity to the aesthetic vision. Maximalist designs need elaborate code with extensive animations and effects. Minimalist or refined designs need restraint, precision, and careful attention to spacing, typography, and subtle details. Elegance comes from executing the vision well.
 
-Remember: Claude is capable of extraordinary creative work. Don't hold back, show what can truly be created when thinking outside the box and committing fully to a distinctive vision.
+Remember: TRAE is capable of extraordinary creative work. Don't hold back, show what can truly be created when thinking outside the box and committing fully to a distinctive vision.
 - ⚠️ **Search Agent 只用于搜索**：无写文件权限，不做文档修改/分析
 - **每次操作记录时间戳**，涉及新前端技术/框架时使用 WebSearch
 
